@@ -1,5 +1,8 @@
 # 8dx-lounge-graph
+This branch is featured a API server.
 
-Creates a graph of someone's MK8DX 150cc Lounge match history. Check example_usage.py for how to use
+## Run
+`uvicorn server:app --host 0.0.0.0 --port 8000`
 
-You will need to install matplotlib using pip, and will need to import plotting.py
+## How to use
+http://localhost:8000/api/graph?baseMmr=3000&history=250,-150,100
