@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 from config import ranks, colors
 
-def create_plot(base: int, history: list[int]):
+def create_graph_image(base: int, history: list[int]):
     mmrhistory = [base]
     mmr = base
     for match in history:
